@@ -11,9 +11,9 @@
 // }
 //     echo numero_primo(1);
 
- 
 
-function primo($num) {
+
+function numero_primo($num) {
     if ($num < 2) return false;
     for ($i = 2; $i <= sqrt($num); $i++) {
         if ($num % $i == 0) return false;
@@ -21,7 +21,7 @@ function primo($num) {
     return true;
 }
 
-function nthPrimo($n) {
+function nummero_Primo($n) {
     $count = 0;
     $num = 2;
     while ($count < $n) {
@@ -31,6 +31,6 @@ function nthPrimo($n) {
     return $num - 1;
 }
 
-echo nthPrimo(10); // 29
+echo numero_Primo(10); 
 ?>
     
