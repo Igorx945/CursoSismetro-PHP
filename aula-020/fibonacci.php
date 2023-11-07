@@ -10,7 +10,7 @@ function primo($num) {
     return true;
 }
 
-function nthPrimo($n) {
+function nummero_Primo($n) {
     $count = 0;
     $num = 2;
     while ($count < $n) {
